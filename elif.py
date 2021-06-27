@@ -1,4 +1,4 @@
-'''def print_grade(midterm_score, final_score):
+def print_grade(midterm_score, final_score):
     total = midterm_score + final_score
     if total >= 90:
         print("A")
@@ -54,7 +54,7 @@ while i <= n:
         number += 1
     i += 1
 print("{}의 약수는 총 {}개입니다.".format(n, number))
-'''
+
 #택이의 우승 상금
 year = 1989
 prize_money = 50000000
@@ -70,5 +70,34 @@ if prize_money > apart_price:
 else:
         print("{}원 차이로 미란 아주머니 말씀이 맞습니다.".format(int(apart_price-prize_money)))
 
+#구구단
+n = 1
+while n <= 9:
+    i = 1
+    while i <= 9:
+        print("{} * {} = {}".format(n, i, n*i))
+        i += 1
+    n += 1
 
+#break문
+i = 100
+
+while True:
+    # i가 23의 배수면 반복문을 끝냄
+    if i % 23 == 0:
+        break
+    i = i + 1
+
+print(i)
+
+#continue문
+i = 0
+
+while i < 15:
+    i = i + 1
+
+    # i가 홀수면 print(i) 안 하고 바로 조건 부분으로 돌아감
+    if i % 2 == 1:
+        continue
+    print(i)
 
