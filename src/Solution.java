@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Iterator;
 import java.util.ListIterator;
-//프로그래머스 lv1. 두 개 뽑아서 더하기
+//프로그래머스 lv1 두 개 뽑아서 더하기
 /*
  //*2022_1018
  * 정수 배열 numbers가 주어집니다. 
