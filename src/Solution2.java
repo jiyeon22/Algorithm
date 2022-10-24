@@ -1,4 +1,4 @@
-//2022_1018
+//2022_1018_
 //프로그래머스 lv1 k번째 수 
 import java.util.ArrayList;
 import java.util.Arrays;
