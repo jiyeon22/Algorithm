@@ -5,13 +5,13 @@
 
 ## 📂 문자열
 
-### [문자열에서 모음만 추출](./Python/문자열/extract_vowels.py)
+### [문자열에서 모음만 추출](./python/문자열/extract_vowels.py)
 - 리스트 컴프리헨션을 이용해 모음만 골라 출력
 - 소문자/대문자 구분 없이 처리
 
 ## 📂 그래프 탐색
 
-### [뭉친 K (구름 LEVEL)](./Python/그래프탐색/floodfill_bfs.py)
+### [뭉친 K (구름 LEVEL)](./python/그래프탐색/floodfill_bfs.py)
 - 기준 좌표에서 시작해 상하좌우로 연결된 같은 값을 BFS로 탐색
 - `deque`를 활용한 큐 기반 탐색
 - 방문 여부를 기록하여 무한루프 방지
